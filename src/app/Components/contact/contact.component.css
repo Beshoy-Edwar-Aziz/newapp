@@ -1,0 +1,35 @@
+.main{
+    padding: 80px 0;
+}
+.old::after{
+    background-color: #000;
+    left: 52%;
+}
+.old::before{
+    background-color: #000;
+    right: 52%;
+}
+.form-control{
+    box-shadow: none;
+    outline-color: transparent;
+    border: none;
+    border-bottom: 1px solid #dfe3e7;
+}
+.but{
+    width: 36%;
+}
+label{
+    position: relative !important;
+    transition: all .5s;
+    top: 40px;
+    color: #198754;
+}
+.topper{
+    transition: all .5s;
+    top: 0 !important;
+    z-index: -1;
+}
+
+input{
+    z-index: 1000;
+}

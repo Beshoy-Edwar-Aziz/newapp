@@ -1,0 +1,22 @@
+<div class="main min-vh-100">
+    <div class="container text-center  mt-3">
+    <h1>CONTACT COMPONENT</h1>
+<div class="power old">
+    <i class="fa-solid fa-star"></i>
+</div>
+    <div class="inputs d-flex flex-column align-items-center mt-5">
+    <label class="position-relative" [ngClass]="{'topper':boi.length>0}">UserName:</label>
+    <input type="text" class="form-control position-relative" [(ngModel)]="boi"  placeholder="UserName">
+    <label class=" position-relative mt-3" [ngClass]="{'topper':boi2.length>0}">UserAge:</label>
+    <input type="text" class="form-control" [(ngModel)]="boi2"  placeholder="UserAge">
+    <label class="position-relative mt-3" [ngClass]="{'topper':boi3.length>0}">UserEmail:</label>
+    <input type="email" class="form-control" [(ngModel)]="boi3" placeholder="UserEmail">
+    <label class="position-relative mt-3" [ngClass]="{'topper':boi4.length>0}">UserPassword:</label>
+    <input type="password" class="form-control" [(ngModel)]="boi4" placeholder="UserPassword">
+
+<div class="but">
+<button class="btn btn-success mt-4">Send Message</button>
+</div>
+</div>
+</div>
+</div>
